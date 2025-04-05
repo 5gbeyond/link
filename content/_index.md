@@ -39,7 +39,7 @@ sections:
       items:
         - title: Marina Martinelli
           icon: brands/linkedin
-          description: |
+          content: |
             [LinkedIn Profile](https://www.linkedin.com/in/marina-martinelli/)  
             [Personal Website](https://www.5gbeyond.com.br/)
 
@@ -49,17 +49,16 @@ sections:
       items:
         - title: José Felipe Ruppenthal
           icon: brands/linkedin
-          description: |
-            [LinkedIn Profile](https://www.linkedin.com/in/jfeliperuppenthal/)  
-            <!-- Optional: Personal Website -->
+          content: |
+            [LinkedIn Profile](https://www.linkedin.com/in/jfeliperuppenthal/)
         - title: Leonardo Grando
           icon: brands/linkedin
-          description: |
+          content: |
             [LinkedIn Profile](https://www.linkedin.com/in/lgrando123/)  
             [Personal Website](https://lgrando1.github.io/)
         - title: Paulo Fernando Silvestre Jr.
           icon: brands/linkedin
-          description: |
+          content: |
             [LinkedIn Profile](https://www.linkedin.com/in/paulosilvestre/)  
             [Personal Website](https://linktr.ee/paulosilvestre)
 ---
