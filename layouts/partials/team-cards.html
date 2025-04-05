@@ -1,5 +1,14 @@
 <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-6">
-  {{ range .Pages }}
+  {{ $caller := . }}
+  {{ if eq $caller.title "Curators" }}
+    {{ $people := where site.RegularPages "Type" "curators" }}
+  {{ else if eq $caller.title "Maintainers" }}
+    {{ $people := where site.RegularPages "Type" "maintainers" }}
+  {{ else }}
+    {{ $people := slice }}
+  {{ end }}
+
+  {{ range $people }}
     <div class="bg-white shadow-lg rounded-xl p-4 text-center">
       {{ with .Params.image }}
         <img src="/{{ . }}" alt="{{ $.Title }}" class="w-24 h-24 rounded-full mx-auto mb-4">
@@ -17,3 +26,4 @@
     </div>
   {{ end }}
 </section>
+
