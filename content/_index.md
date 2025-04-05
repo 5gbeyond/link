@@ -17,18 +17,19 @@ sections:
     design:
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
+
   - block: cta-button-list
     content:
       # Need a custom icon?
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
-        - text: 5G and Beyond WhatsApp Community (+ 700 Worldwide Members)
+        - text: 5G and Beyond WhatsApp Community
           icon: academicons/arxiv
-          url: [WhatsApp Group](https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W)
+          url: https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W
         - text: YouTube Channel
           icon: brands/youtube
-          url: [https://youtube.com](https://www.youtube.com/@5gbeyond)
+          url: https://www.youtube.com/@5gbeyond
         - text: Connect with me on LinkedIn
           icon: brands/linkedin
-          URL: [Linkedin](https://www.linkedin.com/groups/1788426)
+          url: https://www.linkedin.com/groups/1788426
 ---
