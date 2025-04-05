@@ -23,8 +23,8 @@ sections:
       # Need a custom icon?
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
-        - text: Join 5G and Beyond WhatsApp Community
-          icon: brands/whatsapp  # Use 'brands/whatsapp' if supported by your theme (e.g., Font Awesome 5+)
+        - text: 5G and Beyond WhatsApp Community
+          icon: brands/whatsapp  # Use a custom SVG if this doesn't render
           url: https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W
         - text: YouTube Channel
           icon: brands/youtube
@@ -32,5 +32,36 @@ sections:
         - text: Connect with me on LinkedIn
           icon: brands/linkedin
           url: https://www.linkedin.com/groups/1788426
----
 
+  - block: feature-grid
+    title: Group Administration
+    content:
+      items:
+        - title: Marina Martinelli
+          icon: brands/linkedin
+          content: |
+            [LinkedIn Profile](https://www.linkedin.com/in/marina-martinelli/)  
+            [Personal Website](https://www.5gbeyond.com.br/)
+
+
+  - block: feature-grid
+    title: Content Curators
+    content:
+      items:
+        - title: José Felipe Ruppenthal
+          icon: brands/linkedin
+          content: |
+            [LinkedIn Profile](https://www.linkedin.com/in/jfeliperuppenthal/)  
+           # [Personal Website](https://mariapereira.net)
+        - title: Leonardo Grando
+          icon: brands/linkedin
+          content: |
+            [LinkedIn Profile](https://www.linkedin.com/in/lgrando123/)  
+            [Personal Website]([https://ciclano.io](https://lgrando1.github.io/))
+        - title: Paulo Fernando Silvestre Jr.
+          icon: brands/linkedin
+          content: |
+            [LinkedIn Profile](https://www.linkedin.com/in/paulosilvestre/)  
+            [Personal Website](https://linktr.ee/paulosilvestre)
+    
+---
