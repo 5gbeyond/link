@@ -23,7 +23,7 @@ sections:
       # Need a custom icon?
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
-        - text: 5G and Beyond WhatsApp Community
+        - text: Join the 5G and Beyond WhatsApp Community (+ 700 worldwide members)
           icon: brands/whatsapp  # Use 'brands/whatsapp' if supported by your theme (e.g., Font Awesome 5+)
           url: https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W
         - text: YouTube Channel
