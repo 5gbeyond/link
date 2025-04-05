@@ -24,7 +24,7 @@ sections:
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
         - text: 5G and Beyond WhatsApp Community
-          icon: brands/whatsapp  # Use a custom SVG if this doesn't render
+          icon: brands/whatsapp
           url: https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W
         - text: YouTube Channel
           icon: brands/youtube
@@ -33,32 +33,38 @@ sections:
           icon: brands/linkedin
           url: https://www.linkedin.com/groups/1788426
 
-  - block: features
+  - block: cards
     title: Group Administration
     content:
       items:
         - title: Marina Martinelli
-          icon: brands/linkedin
+          subtitle: Maintainer
+          image: media/team/marina.jpg
           content: |
-            [LinkedIn Profile](https://www.linkedin.com/in/marina-martinelli/)  
-            [Personal Website](https://www.5gbeyond.com.br/)
+            [LinkedIn](https://www.linkedin.com/in/marina-martinelli/)  
+            [Website](https://www.5gbeyond.com.br/)
 
-  - block: features
+  - block: cards
     title: Content Curators
     content:
       items:
         - title: José Felipe Ruppenthal
-          icon: brands/linkedin
+          subtitle: Curator
+          image: media/team/jose.jpg
           content: |
-            [LinkedIn Profile](https://www.linkedin.com/in/jfeliperuppenthal/)
+            [LinkedIn](https://www.linkedin.com/in/jfeliperuppenthal/)
+
         - title: Leonardo Grando
-          icon: brands/linkedin
+          subtitle: Curator
+          image: media/team/leonardo.jpg
           content: |
-            [LinkedIn Profile](https://www.linkedin.com/in/lgrando123/)  
-            [Personal Website](https://lgrando1.github.io/)
+            [LinkedIn](https://www.linkedin.com/in/lgrando123/)  
+            [Website](https://lgrando1.github.io/)
+
         - title: Paulo Fernando Silvestre Jr.
-          icon: brands/linkedin
+          subtitle: Curator
+          image: media/team/paulo.jpg
           content: |
-            [LinkedIn Profile](https://www.linkedin.com/in/paulosilvestre/)  
-            [Personal Website](https://linktr.ee/paulosilvestre)
+            [LinkedIn](https://www.linkedin.com/in/paulosilvestre/)  
+            [Website](https://linktr.ee/paulosilvestre)
 ---
