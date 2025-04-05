@@ -1,6 +1,6 @@
 ---
 title: 'Home'
-date: 2023-10-24
+date: 2025-04-05
 type: landing
 
 design:
@@ -22,13 +22,13 @@ sections:
       # Need a custom icon?
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
-        - text: Read my latest paper on LLM s
+        - text: 5G and Beyond WhatsApp Community (+ 700 Worldwide Members)
           icon: academicons/arxiv
-          url: https://arxiv.org/abs/2304.01852
-        - text: Watch my new YouTube video to achieve 20x productivity
+          url: [https://arxiv.org/abs/2304.01852](https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W)
+        - text: YouTube Channel
           icon: brands/youtube
-          url: https://youtube.com
+          url: [https://youtube.com](https://www.youtube.com/@5gbeyond)
         - text: Connect with me on LinkedIn
           icon: brands/linkedin
-          url: https://linkedin.com
+          url: https://www.linkedin.com/groups/1788426
 ---
