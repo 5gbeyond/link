@@ -20,8 +20,6 @@ sections:
 
   - block: cta-button-list
     content:
-      # Need a custom icon?
-      # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
         - text: 5G and Beyond WhatsApp Community
           icon: brands/whatsapp
@@ -34,14 +32,14 @@ sections:
           url: https://www.linkedin.com/groups/1788426
 
   - block: feature-grid
-    title: Group Administration
+    title: Group Maintainers
     content:
       items:
         - title: Marina Martinelli
           image: media/team/marina.jpg
           content: |
             [LinkedIn](https://www.linkedin.com/in/marina-martinelli/)  
-            [Website](https://www.5gbeyond.com.br/)
+            [Personal Website](https://www.5gbeyond.com.br/)
 
   - block: feature-grid
     title: Content Curators
@@ -56,11 +54,11 @@ sections:
           image: media/team/leonardo.jpg
           content: |
             [LinkedIn](https://www.linkedin.com/in/lgrando123/)  
-            [Website](https://lgrando1.github.io/)
+            [Personal Website](https://lgrando1.github.io/)
 
         - title: Paulo Fernando Silvestre Jr.
           image: media/team/paulo.jpg
           content: |
             [LinkedIn](https://www.linkedin.com/in/paulosilvestre/)  
-            [Website](https://linktr.ee/paulosilvestre)
+            [Personal Website](https://linktr.ee/paulosilvestre)
 ---
