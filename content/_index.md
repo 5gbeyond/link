@@ -30,12 +30,37 @@ sections:
           url: https://www.linkedin.com/groups/1788426
 
   - block: custom
-    title: Maintainers
+    title: Group Administration
     content:
-      partial: team-cards.html
+      people:
+        - name: Marina Martinelli
+          role: Group Admin
+          image:
+            filename: marina.jpg
+          linkedin: https://www.linkedin.com/in/marina-martinelli/
+          website: https://www.5gbeyond.com.br/
 
   - block: custom
-    title: Curators
+    title: Content Curators
     content:
-      partial: team-cards.html
+      people:
+        - name: José Felipe Ruppenthal
+          role: Curator
+          image:
+            filename: joseruppenthal.jpg
+          linkedin: https://www.linkedin.com/in/jfeliperuppenthal/
+
+        - name: Leonardo Grando
+          role: Curator
+          image:
+            filename: leonardo.jpg
+          linkedin: https://www.linkedin.com/in/lgrando123/
+          website: https://lgrando1.github.io/
+
+        - name: Paulo Fernando Silvestre Jr.
+          role: Curator
+          image:
+            filename: paulo.jpg
+          linkedin: https://www.linkedin.com/in/paulosilvestre/
+          website: https://linktr.ee/paulosilvestre
 ---
