@@ -24,11 +24,11 @@ sections:
       buttons:
         - text: 5G and Beyond WhatsApp Community (+ 700 Worldwide Members)
           icon: academicons/arxiv
-          url: [https://arxiv.org/abs/2304.01852](https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W)
+          url: [WhatsApp Group](https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W)
         - text: YouTube Channel
           icon: brands/youtube
           url: [https://youtube.com](https://www.youtube.com/@5gbeyond)
         - text: Connect with me on LinkedIn
           icon: brands/linkedin
-          url: https://www.linkedin.com/groups/1788426
+          URL: [Linkedin](https://www.linkedin.com/groups/1788426)
 ---
