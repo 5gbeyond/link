@@ -1,29 +1,12 @@
-<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-6">
-  {{ $caller := . }}
-  {{ if eq $caller.title "Curators" }}
-    {{ $people := where site.RegularPages "Type" "curators" }}
-  {{ else if eq $caller.title "Maintainers" }}
-    {{ $people := where site.RegularPages "Type" "maintainers" }}
-  {{ else }}
-    {{ $people := slice }}
-  {{ end }}
-
-  {{ range $people }}
-    <div class="bg-white shadow-lg rounded-xl p-4 text-center">
-      {{ with .Params.image }}
-        <img src="/{{ . }}" alt="{{ $.Title }}" class="w-24 h-24 rounded-full mx-auto mb-4">
-      {{ end }}
-      <h3 class="text-xl font-semibold">{{ .Title }}</h3>
-      <p class="text-sm text-gray-600">{{ .Params.role }}</p>
-      <div class="mt-2 text-sm">
-        {{ with .Params.linkedin }}
-          <a href="{{ . }}" class="text-blue-500 hover:underline block" target="_blank">LinkedIn</a>
-        {{ end }}
-        {{ with .Params.website }}
-          <a href="{{ . }}" class="text-blue-500 hover:underline block" target="_blank">Website</a>
-        {{ end }}
-      </div>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  {{ range .people }}
+    <div class="rounded-xl shadow-lg p-4 text-center bg-white">
+      <img class="mx-auto rounded-full w-24 h-24 object-cover" src="{{ "media/team/" | relURL }}{{ .image }}" alt="{{ .name }}">
+      <h3 class="mt-4 text-lg font-semibold">{{ .name }}</h3>
+      <p class="text-sm text-gray-600">{{ .role }}</p>
+      <a class="inline-block mt-2 text-blue-500 hover:underline" href="{{ .linkedin }}" target="_blank">
+        LinkedIn Profile
+      </a>
     </div>
   {{ end }}
-</section>
-
+</div>
