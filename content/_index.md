@@ -44,7 +44,7 @@ sections:
     title: Content Curators
     content:
       people:
-        - name: José Felipe Ruppenthal
+        - name: José Felipe  Ruppenthal
           role: Curator
           image:
             filename: joseruppenthal.jpg
