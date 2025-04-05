@@ -24,7 +24,7 @@ sections:
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
         - text: 5G and Beyond WhatsApp Community
-          icon: brands/whatsapp
+          icon: brands/whatsapp  # Use 'brands/whatsapp' if supported by your theme (e.g., Font Awesome 5+)
           url: https://chat.whatsapp.com/LmmqaVaumeFAoHv0Q5Ik0W
         - text: YouTube Channel
           icon: brands/youtube
@@ -33,3 +33,4 @@ sections:
           icon: brands/linkedin
           url: https://www.linkedin.com/groups/1788426
 ---
+
