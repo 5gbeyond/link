@@ -20,9 +20,9 @@ superuser: true
 role: Brazilian Technology Group About 5G and Communication Technologies
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+# organizations:
+#  - name: Stanford University
+ #   url: https://www.stanford.edu/
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
