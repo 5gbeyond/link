@@ -1,26 +1,15 @@
-{{/* layouts/partials/blox/feature-grid.html */}}
-
-<section class="section">
-  <div class="container">
-    {{ with .title }}
-      <h2 class="section-title text-center mb-12">{{ . }}</h2>
-    {{ end }}
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {{ range .content.items }}
-        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          {{ with .image }}
-            <img src="{{ . | relURL }}" alt="{{ $.title }}" class="w-24 h-24 mx-auto rounded-full mb-4 object-cover">
-          {{ end }}
-          <h3 class="text-lg font-semibold mb-2">{{ .title }}</h3>
-          {{ with .subtitle }}
-            <p class="text-sm text-gray-500 dark:text-gray-400 mb-2">{{ . }}</p>
-          {{ end }}
-          <div class="text-sm prose prose-sm dark:prose-invert">
-            {{ .content | markdownify }}
-          </div>
-        </div>
+<!-- layouts/partials/blox/feature-grid.html -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
+  {{ range .content.items }}
+    <div class="bg-white rounded-lg shadow p-6 text-center">
+      {{ if .image }}
+        <img src="/{{ .image }}" alt="{{ .title }}" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
       {{ end }}
+      <h3 class="text-lg font-semibold mb-2">{{ .title }}</h3>
+      <div class="text-sm text-gray-600">
+        {{ .content | markdownify }}
+      </div>
     </div>
-  </div>
-</section>
+  {{ end }}
+</div>
+
